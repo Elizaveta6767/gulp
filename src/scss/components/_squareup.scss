@@ -1,0 +1,47 @@
+.section_squareup {
+    display: grid;
+    
+    .card:nth-child(1) {
+        grid-area: one;
+    }
+    .card:nth-child(2) {
+        grid-area: two;
+    }
+    .card:nth-child(3) {
+        grid-area: three;
+    }
+    .card:nth-child(4) {
+        grid-area: four;
+    }
+    .card:nth-child(5) {
+        grid-area: five;
+    }
+    .card:nth-child(6) {
+        grid-area: six;
+    }
+    .card:nth-child(7) {
+        grid-area: one;
+    }
+    
+    .card {
+        h1 {
+            color: #D8FF99;
+            padding-top: 35px;
+        }
+    }
+    
+    .team {
+        font-size: 18px;
+    }
+
+    .square_button {
+        border-radius: 8px;
+        font-size: 12px;
+        width: 200px;
+        height: 60px;
+        border: #333333;
+        color: #fff;
+        background-color: #222222;
+        cursor: pointer;
+    }
+}

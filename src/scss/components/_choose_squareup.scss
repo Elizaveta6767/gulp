@@ -1,0 +1,21 @@
+.our_container_service{
+    background-image: url(../images/Text_Container1.webp);
+    background-position: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    min-height: 366px;
+
+    .services_container{
+        padding-top: 120px;
+    }
+    h1{
+        color: #fff;
+        font-size: 48px;
+    }
+    p{
+      color: #fff;  
+      font-size: 18px;
+    }
+}

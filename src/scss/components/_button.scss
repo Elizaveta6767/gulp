@@ -1,0 +1,19 @@
+.button_link{
+    text-decoration: none;
+    cursor: pointer;
+
+
+    .button{
+        color: #000;
+        background-color: var(--main-color);
+        padding: 16px 24px;
+        font-size: 18px;
+        border-radius: var(--border-radius-button);
+        border: none;
+        cursor: pointer;
+
+        &:hover{
+            opacity: 0.9;
+        }
+    }
+}
